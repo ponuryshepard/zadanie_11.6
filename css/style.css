@@ -28,6 +28,10 @@ div {
 }
 div.column {
   vertical-align: top;
+  border-left: 2px solid white;
+}
+div.column:last-child {
+  border-right: 2px solid white;
 }
 .column-title {
   background-color: #FF9900;
